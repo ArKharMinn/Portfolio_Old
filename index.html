@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ar Khar Minn's Portfolio - Web Developer specializing in frontend and backend development">
+    <title>Ar Khar Minn | Developer Portfolio</title>
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"></noscript>
+    <link rel="preload" href="style.css" as="style">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://kit.fontawesome.com">
+    <script src="https://kit.fontawesome.com/17730cb0db.js" crossorigin="anonymous" defer></script>
+    <link rel="icon" type="image/png" href="/image/icon/portfolio.jpg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#" aria-label="ArKharMinn Home">ArKharMinn</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold active" href="#homePage" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#aboutPage">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#portfolioPage">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-primary min-vh-100 d-flex align-items-center" id="homePage">
+      <div class="container-lg text-white">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6 order-lg-1 order-2">
+            <div class="pe-lg-5">
+              <p class="lead mb-1">Welcome to my portfolio</p>
+              <h1 class="display-5 fw-bold mb-3">I'm <span class="text-warning typing"></span></h1>
+              <p class="mb-4">Web Developer specializing in creating responsive, user-friendly websites and applications.</p>
+              <div class="d-flex gap-3">
+                <button class="btn btn-light btn-lg px-4" onclick="downloadCV()">Download CV</button>
+
+                <a href="#contact" class="btn btn-outline-light btn-lg px-4">
+                  Contact Me
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-2 order-1 text-center">
+            <img src="./image/icon/pic.jpg" width="300" height="300" class="rounded-circle object-fit-cover border border-4 border-warning shadow" alt="Ar Khar Minn Profile Picture" loading="lazy"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5" id="aboutPage">
+      <div class="container-lg py-4">
+        <div class="text-center mb-5">
+          <h2 class="display-6 fw-bold">About <span class="text-primary">Me</span></h2>
+          <div class="underline mx-auto"></div>
+        </div>
+        
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <h3 class="h4 mb-3">Who I Am</h3>
+            <p class="lead">
+              Hello! I am Ar Khar Minn, a passionate full-stack developer based in Myanmar. I specialize in creating clean, functional, and visually appealing web applications.
+            </p>
+            <p>
+              With expertise in both frontend and backend technologies, I build dynamic and user-friendly websites that deliver exceptional user experiences. My approach combines technical excellence with attention to design details.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities.
+            </p>
+          </div>
+          
+          <div class="col-lg-5">
+            <h3 class="h4 mb-3">My <span class="text-primary">Skills</span></h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <img src="./image/skills/html.png" alt="HTML" loading="lazy"/>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/css.png" alt="CSS" loading="lazy"/>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/js.png" alt="JavaScript" loading="lazy"/>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/ts.png" alt="TypeScript" loading="lazy"/>
+                <span>TypeScript</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/bootstrap.png" alt="Bootstrap" loading="lazy"/>
+                <span>Bootstrap</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/tailwind.png" alt="Tailwind" loading="lazy"/>
+                <span>Tailwind</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/aws.png" alt="AWS" loading="lazy"/>
+                <span>AWS</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/jquery.png" alt="JQuery" loading="lazy"/>
+                <span>JQuery</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/react.png" alt="React" loading="lazy"/>
+                <span>React</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/next.png" alt="Next" loading="lazy"/>
+                <span>Next</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/vue.png" alt="Vue" loading="lazy"/>
+                <span>Vue.js</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/redux.png" alt="Redux" loading="lazy"/>
+                <span>Redux</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/reactnative.png" alt="React Native" loading="lazy"/>
+                <span>React Native</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/php.png" alt="PHP" loading="lazy"/>
+                <span>PHP</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/laravel.png" alt="Laravel" loading="lazy"/>
+                <span>Laravel</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/java.png" alt="Java" loading="lazy"/>
+                <span>Java</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/springboot.png" alt="Spring Boot" loading="lazy"/>
+                <span>Spring Boot</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/python.png" alt="Python" loading="lazy"/>
+                <span>Python</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/filament.jpg" alt="Filament" loading="lazy"/>
+                <span>Filament</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/livewire.svg" alt="Livewire" loading="lazy"/>
+                <span>Livewire</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/express.png" alt="EX" loading="lazy"/>
+                <span>Express</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/node.png" alt="Node" loading="lazy"/>
+                <span>Node</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/mysql.png" alt="MySQL" loading="lazy"/>
+                <span>MySQL</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/postgresql.png" alt="Postgresql" loading="lazy"/>
+                <span>Postgresql</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/mongo.png" alt="MongoDB" loading="lazy"/>
+                <span>MongoDB</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/prisma.png" alt="Prisma" loading="lazy"/>
+                <span>Prisma</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/Git.png" alt="Git" loading="lazy"/>
+                <span>Git</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/github.png" alt="GitHub" loading="lazy"/>
+                <span>GitHub</span>
+              </div>
+              <div class="skill-item">
+                <img src="./image/skills/docker.png" alt="Docker" loading="lazy"/>
+                <span>Docker</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section class="py-5 bg-light" id="portfolioPage">
+      <div class="container-lg py-4">
+        <div class="text-center mb-5">
+          <h2 class="display-6 fw-bold">My <span class="text-primary">Portfolio</span></h2>
+          <div class="underline mx-auto"></div>
+          <p class="lead mt-3">Explore some of the recent projects I've worked on.</p>
+        </div>
+    
+        <div class="portfolio-filter mb-5 text-center">
+          <button class="btn btn-outline-primary active" data-filter="all">All</button>
+          <button class="btn btn-outline-primary mx-2" data-filter="frontend">Frontend</button>
+          <button class="btn btn-outline-primary" data-filter="backend">Backend</button>
+        </div>
+    
+        <div class="row g-4 portfolio-container">
+
+          <!-- IApprove -->
+          <div class="col-lg-4 col-md-6 portfolio-item backend frontend">
+            <div class="card h-100 shadow-sm">
+              <img src="./image/project/iapprove.png" class="card-img-top" alt="Media Platform Client" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">iApprove</h5>
+                <p class="card-text">
+                  iApprove simplifies office workflows by allowing digital signatures, approval tracking, and easy PDF exports—perfect for managing contracts and internal documents efficiently.
+                </p>                
+              </div>            
+            </div>
+          </div>
+    
+           <!--  Merchant Mobile -->
+           <div class="col-lg-4 col-md-6 portfolio-item frontend">
+            <div class="card h-100 shadow-sm">
+              <img src="./image/project/merchant.png" class="card-img-top" alt="Shopping Web Client" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Merchant Mobile App</h5>
+                <p class="card-text">A sleek and intuitive mobile application designed for merchants to easily showcase products, manage listings, and enable seamless customer browsing and purchasing experiences.</p>
+              </div>
+            </div>
+          </div>
+         
+          <!-- E-commerce Admin -->
+          <div class="col-lg-4 col-md-6 portfolio-item backend">
+            <div class="card h-100 shadow-sm">
+              <img src="./image/project/admin.png" class="card-img-top" alt="ShopNest Admin Panel" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">ShopNest Admin Panel</h5>
+                <p class="card-text">A backend dashboard for managing users, products, and orders on an e-commerce platform.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- POS -->
+          <div class="col-lg-4 col-md-6 portfolio-item frontend">
+            <div class="card h-100 shadow-sm">
+              <img src="./image/project/pos.png" class="card-img-top" alt="POS system" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">POS System</h5>
+                <p class="card-text">POS app with product listing, live stock tracking, cart management, and receipt printing.</p>
+              </div>
+            </div>
+          </div>
+
+           <!-- Mobile Platform -->
+          <div class="col-lg-4 col-md-6 portfolio-item frontend">
+            <div class="card h-100 shadow-sm">
+              <img src="./image/project/mobile.png" class="card-img-top" alt="Mobile Platform UI" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Mobile</h5>
+                <p class="card-text">A mobile-optimized web application interface built for performance and accessibility.</p>
+              </div>
+            </div>
+          </div>
+    
+           <!-- Travel Blog -->
+           <div class="col-lg-4 col-md-6 portfolio-item frontend">
+            <div class="card h-100 shadow-sm">
+              <img src="./image/project/travel.png" class="card-img-top" alt="Travel Blog UI" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Travel Blog</h5>
+                <p class="card-text">A clean and responsive frontend for a travel blogging platform featuring articles and destination highlights.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+      <div class="container-lg py-4">
+        <div class="text-center mb-5">
+          <h2 class="display-6 fw-bold">Contact <span class="text-primary">Me</span></h2>
+          <div class="underline mx-auto bg-white"></div>
+          <p class="lead mt-3">Let's work together!</p>
+        </div>
+        
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-6">
+            <form action="https://formspree.io/f/mnqewkqj" method="post" class="contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+              </div>
+              <div class="mb-4">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+            </form>
+          </div>
+          
+          <div class="col-lg-4">
+            <div class="contact-info p-4 h-100">
+              <h3 class="h4 mb-4">Get In Touch</h3>
+              
+              <div class="mb-4">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="fas fa-phone-alt me-3"></i>
+                  <span>+959941717817</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                  <i class="fas fa-envelope me-3"></i>
+                  <span>arkharminn.dev@gmail.com</span>
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="fas fa-map-marker-alt me-3"></i>
+                  <span>Yangon, Myanmar</span>
+                </div>
+              </div>
+              
+              <h3 class="h4 mb-3">Follow Me</h3>
+              <div class="social-links d-flex gap-3">
+                <a href="https://www.facebook.com/akmin.9060" target="_blank" class="text-white">
+                  <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+                <a href="viber://contact?number=+959941717817" target="_blank" class="text-white">
+                  <i class="fab fa-viber fa-lg"></i>
+                </a>
+                <a href="https://t.me/kingsharkistheshark" target="_blank" class="text-white">
+                  <i class="fab fa-telegram-plane fa-lg"></i>
+                </a>
+                <a href="https://github.com/ArkharMinn" target="_blank" class="text-white">
+                  <i class="fab fa-github fa-lg"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/arkhar-minn-901a752a8/" target="_blank" class="text-white">
+                  <i class="fab fa-linkedin-in fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="py-4 bg-black text-white text-center">
+      <div class="container">
+        <p class="mb-0">&copy; <span id="year"></span> Ar Khar Minn. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script>
+      function downloadCV() {
+          const link = document.createElement('a');
+          link.href = 'ArkharMinn_Developer_CV.pdf'; 
+          link.download = 'ArkharMinn_Developer_CV.pdf';
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+      }
+
+      document.getElementById('year').textContent = new Date().getFullYear();
+      
+      document.addEventListener('DOMContentLoaded', function() {
+        const typed = new Typed('.typing', {
+          strings: ['Ar Khar Minn', 'a Full-stack Developer'],
+          typeSpeed: 100,
+          backSpeed: 60,
+          loop: true
+        });
+        
+        const filterButtons = document.querySelectorAll('.portfolio-filter button');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        
+        filterButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            
+            const filterValue = button.getAttribute('data-filter');
+            
+            portfolioItems.forEach(item => {
+              if (filterValue === 'all' || item.classList.contains(filterValue)) {
+                item.style.display = 'block';
+              } else {
+                item.style.display = 'none';
+              }
+            });
+          });
+        });
+      });
+    </script>
+</body>
+</html>
